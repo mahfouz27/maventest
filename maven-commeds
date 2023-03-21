@@ -1,0 +1,5 @@
+mvn clean
+mvn clean test
+mvn package
+mvn package install
+mvn package -Dmaven.test.skip=true
